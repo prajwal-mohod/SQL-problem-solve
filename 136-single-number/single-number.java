@@ -8,7 +8,7 @@ class Solution {
 
                 if(arr[i] == arr[j] && i!=j){
                     isUnique = false;
-                    continue;
+                    break;
                 }
             }
             if(isUnique){
